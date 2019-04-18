@@ -1,0 +1,20 @@
+{
+    "name": "m.sergeev/design-patterns-php",
+    "description": "Implementation of basic design patterns in PHP",
+    "type": "project",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.*"
+    },
+    "authors": [
+        {
+            "name": "Mikhail Sergeev",
+            "email": "m.sergeev@xsolla.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"DesignPatterns\\": "src/"}
+    }
+}
